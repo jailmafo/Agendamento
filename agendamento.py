@@ -10,6 +10,7 @@ def mostrar_agendamentos(agendamentos, data):
     else:
         print("Não há agendamentos para", data)
 
+
 def main():
     agendamentos = {}
 
@@ -33,6 +34,7 @@ def main():
             break
         else:
             print("Opção inválida. Por favor, escolha uma opção válida.")
+
 
 if __name__ == "__main__":
     main()
